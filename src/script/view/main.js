@@ -33,7 +33,7 @@ const main = () => {
         tvshowListElement.renderError(message);
     };
 
-    searchTvshow('show');
+    searchTvshow('marvel');
     searchElement.clickEvent = onButtonSearchClicked;
 
     const checkbox = document.querySelectorAll("input[type=checkbox]")
